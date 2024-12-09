@@ -1,0 +1,60 @@
+body {
+    color:#b4467d;
+    background:#fcd8ed;
+    margin: 0px;
+    font-family: "Lilita One", sans-serif;
+    margin-bottom: 130px;
+}
+
+header {
+    border-bottom: solid 2px #e997c0;
+    padding: 20px;
+    font-size: 36px;
+    color: #e997c0;
+}
+
+.chamada {
+    background: #fff0fb;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid #b4467d;
+}
+
+.categoria h2 {
+    color: #e997c0;
+}
